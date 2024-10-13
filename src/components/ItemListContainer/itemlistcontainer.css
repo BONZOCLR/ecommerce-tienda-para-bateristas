@@ -1,0 +1,32 @@
+.itemlistcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+}
+.itemcontainer{ 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.itemlistcontainer .itemlist  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.itemlistcontainer .item{
+    width: 300px;
+    border: 10px solid rgb(5, 5, 5);
+    padding: 40px;
+    justify-content:center;
+    align-items:center;
+    }
+
+
+
+

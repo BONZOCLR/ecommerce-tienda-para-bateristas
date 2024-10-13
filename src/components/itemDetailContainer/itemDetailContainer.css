@@ -1,0 +1,6 @@
+.itemdetailcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+}

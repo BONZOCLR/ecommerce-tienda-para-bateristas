@@ -1,52 +1,43 @@
-$primary-color: #213953;
-$background-color: #f8f9fa;
+$primary-color: #000000;
+$background-color: #000000;
 
-.navbar{
+.navbarNav{
     display: flex; 
-    justify-content: space-between; 
+    justify-content:center; 
+    flex-direction: column;
     align-items: center; 
-    background-color: $background-color;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
+}
     
-    .container-fluid {
-        display: flex; 
-        justify-content: center; 
-        flex-grow: 1;
-    }
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .navbar-brand {
-        display: flex;
-        align-items: center;
-        width: 100;
-        img {
-            margin-right: 10px;
-        }
-    }
 
-    .navbar-toggler {
-        border: none;
-        &:focus {
-            outline: none;
-            box-shadow: none;
-        }
-    }
+.container-fluid {
+    display: flex; 
+    justify-content: center; 
+    flex-grow: 1;
+}
 
-    .navbar-nav {
-        .nav-item {
-            .nav-link {
-                color: $primary-color;
-                transition: color 0.3s;
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    width: 100;
+    img {margin-right: 10px;}
+}
 
-                &:hover {
-                    color: darken($primary-color, 10%);
-                }
-
-                &.active {
-                    font-weight: bold;
-                    color: darken($primary-color, 20%);
-                }
-            }
-        }
+.navbar-toggler {
+    border: none;
+    &:focus {
+    outline: none;
+    box-shadow:rgb(9, 9, 92);
     }
 }
