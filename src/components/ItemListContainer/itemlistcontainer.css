@@ -1,32 +1,40 @@
-.itemlistcontainer{
+/* itemlistcontainer.css */
+
+.itemlistcontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 50px;
-    justify-content: space-around;
+    padding: 20px; /* Reduce el padding */
+    justify-content: center; /* Centra los elementos */
 }
-.itemcontainer{ 
+
+.itemcontainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Centra los elementos dentro del contenedor */
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 50px;
+    padding: 20px; /* Reduce el padding */
 }
-.itemlistcontainer .itemlist  {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 50px;
-}
-.itemlistcontainer .item{
+
+.itemlistcontainer .item {
     width: 300px;
-    border: 10px solid rgb(5, 5, 5);
-    padding: 40px;
-    justify-content:center;
-    align-items:center;
-    }
+    border: 2px solid rgb(5, 5, 5); /* Reduce el grosor del borde */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    padding: 20px; /* Reduce el padding */
+    transition: transform 0.3s; /* Agrega una transición suave */
+}
+
+.itemlistcontainer .item:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
 
 
+/* itemlistcontainer.css */
 
+.row {
+    margin: 0; /* Elimina márgenes de la fila */
+}
 
+.mb-4 {
+    margin-bottom: 1.5rem; /* Espaciado inferior entre los elementos */
+}

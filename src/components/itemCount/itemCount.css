@@ -1,0 +1,18 @@
+/* itemCount.css */
+
+.item-count {
+    display: flex; /* Usamos flexbox para alinear los elementos en línea */
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Espacio entre los elementos */
+    margin-top: 10px; /* Espacio superior */
+}
+
+.btn {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    padding: 5px 10px; /* Espaciado interno más pequeño */
+}
+
+.count {
+    margin: 0 10px; /* Espacio lateral alrededor del número */
+    font-size: 16px; /* Tamaño de fuente para la cantidad */
+}

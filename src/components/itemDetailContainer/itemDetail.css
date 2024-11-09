@@ -1,0 +1,39 @@
+/* itemDetail.css */
+
+.item-detail-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Espacio entre imagen y contenido */
+    padding: 20px;
+    background-color: #f0f8ff; /* Fondo azul claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.item-image {
+    flex: 1; /* Ocupa una parte del contenedor */
+    max-width: 300px; /* Ancho máximo para la imagen */
+    margin-right: 20px; /* Espacio entre imagen y texto */
+}
+
+.item-image img {
+    width: 100%; /* La imagen ocupa todo el contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+.item-info {
+    flex: 2; /* Ocupa más espacio que la imagen */
+}
+
+h2 {
+    color: #003366; /* Tono azul oscuro */
+}
+
+p {
+    color: #333; /* Texto oscuro para mejor legibilidad */
+}
+
+.btn {
+    margin-top: 10px; /* Espacio entre el texto y el botón */
+}

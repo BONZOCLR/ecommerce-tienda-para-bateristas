@@ -1,0 +1,21 @@
+/* item.css */
+
+.item {
+    border: 2px solid #3b2a2a; /* Marco marrón oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    transition: transform 0.3s; /* Efecto de transición */
+    background-color: white; /* Fondo blanco */
+    text-align: center; /* Centra el texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.item:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.img-item {
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
