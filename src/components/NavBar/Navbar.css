@@ -1,6 +1,7 @@
 
+
 .navbar {
-    background-color: #007bff;
+    background-color: #007bff; 
     padding: 10px 20px;
 }
 
@@ -36,26 +37,25 @@
     position: relative;
 }
 
-.nav-item button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #000000; 
+.cart-button {
+    background-color: transparent; 
+    border: none; 
+    color: #ffffff; 
     margin-left: 20px; 
 }
 
-.nav-item button:hover {
+.cart-button:hover {
     color: #ffcc00; 
 }
 
-.cartwidget .icon-cartwidget{
-    font-size:25px;
-    color:#007bff
+.cartwidget .icon-cartwidget {
+    font-size: 25px;
+    color: #ffffff; 
 }
 
-.cartwidget .empty-cartwidget{
+.cartwidget .empty-cartwidget {
     font-size: 25px;
-    color:gray;
+    color: gray;
 }
 
 @media (max-width: 768px) {

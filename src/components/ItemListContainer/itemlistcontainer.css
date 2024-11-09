@@ -1,40 +1,40 @@
-/* itemlistcontainer.css */
+
 
 .itemlistcontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 20px; /* Reduce el padding */
-    justify-content: center; /* Centra los elementos */
+    padding: 20px; 
+    justify-content: center; 
 }
 
 .itemcontainer {
     display: flex;
-    justify-content: center; /* Centra los elementos dentro del contenedor */
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 20px; /* Reduce el padding */
+    padding: 20px;
 }
 
 .itemlistcontainer .item {
     width: 300px;
-    border: 2px solid rgb(5, 5, 5); /* Reduce el grosor del borde */
-    border-radius: 10px; /* Agrega bordes redondeados */
-    padding: 20px; /* Reduce el padding */
-    transition: transform 0.3s; /* Agrega una transición suave */
+    border: 2px solid rgb(5, 5, 5); 
+    border-radius: 10px; 
+    padding: 20px; 
+    transition: transform 0.3s; 
 }
 
 .itemlistcontainer .item:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.05); 
 }
 
 
-/* itemlistcontainer.css */
+
 
 .row {
-    margin: 0; /* Elimina márgenes de la fila */
+    margin: 0; 
 }
 
 .mb-4 {
-    margin-bottom: 1.5rem; /* Espaciado inferior entre los elementos */
+    margin-bottom: 1.5rem; 
 }

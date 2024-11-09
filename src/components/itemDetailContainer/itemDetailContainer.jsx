@@ -5,7 +5,7 @@ import {useContext} from "react"
 import {doc, getDoc} from "firebase/firestore"
 import db from "../../db/db.js"
 import { CartContext } from "../../context/CartContext.jsx"
-import "./itemDetailContainer.css"
+
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState({})
